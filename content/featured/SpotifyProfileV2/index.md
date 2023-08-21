@@ -2,7 +2,7 @@
 date: '3'
 title: 'Eulexia'
 cover: './Eulexia.png'
-# external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+external: 'https://peppered-silicon-35d.notion.site/Eulexia-8ee393ea57d74317a56273fc3ca99291'
 # cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
   - Figma

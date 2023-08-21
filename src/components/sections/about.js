@@ -19,14 +19,24 @@ const StyledAboutSection = styled.section`
   }
 `;
 const StyledText = styled.div`
-  ul.skills-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
-    grid-gap: 0 10px;
-    padding: 0;
-    margin: 20px 0 0 0;
-    overflow: hidden;
-    list-style: none;
+  // ul.skills-list {
+  //   display: grid;
+  //   grid-template-columns: repeat(2, minmax(140px, 200px));
+  //   grid-gap: 0 10px;
+  //   padding: 0;
+  //   margin: 20px 0 0 0;
+  //   overflow: hidden;
+  //   list-style: none;
+
+
+    ul.clubs-list {
+      display: grid;
+      grid-template-columns: minmax(140px, 400px); /* One column */
+      grid-gap: 0 10px;
+      padding: 0;
+      margin: 20px 0 0 0;
+      overflow: hidden;
+      list-style: none;
 
     li {
       position: relative;
@@ -128,6 +138,8 @@ const About = () => {
 
   const skills = ['JavaScript', 'React', 'React Native', 'Git', 'Figma'];
 
+  const clubs = ['Project Hope - Volunteer dedicated to advancing educational equity by outreaching students at underserved high schools', 'Learning Center -  Photo Consultant fostering artistic creations among students through events and resources', 'LA Blueprint - UI/UX Designer working with non-profits for social good','Creative Labs - Project Manager supporting a community of creatives to build student-led projects'];
+
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -136,14 +148,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Megan and I'm Front-End Engineer. 
+              Hello! My name is Megan and I'm Front-End Engineer committed to building user-centric interfaces that seamlessly blend aesthetics and functionality. 
             </p>
             <p>
               I'm currently attending UCLA studying cognitive science and computing. I'm involved in several organizations such as:
-              - Project Hope
             </p>
-
+            <ul className="clubs-list">
+            {clubs && clubs.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+        <br></br>
             <p>
+
               In my free time, I enjoy writing letters to my friends, hammocking, exploring Los Angeles via bus or scooters, and thrifting! I also love snacking on oranges, raspberries, and cherries.
             </p>
 
@@ -156,12 +171,12 @@ const About = () => {
               &amp; React.
             </p> */}
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            {/* <p>Here are a few technologies I’ve been working with recently:</p> */}
           </div>
 
-          <ul className="skills-list">
+          {/* <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+          </ul> */}
         </StyledText>
 
         <StyledPic>

@@ -4,6 +4,7 @@ title: 'Yumma'
 cover: './Yumma.png'
 github: 'https://github.com/erinkwon01/yumma'
 external: 'https://devpost.com/software/yumma'
+# external: 'https://peppered-silicon-35d.notion.site/Yumma-9888cf1bd73449a3819dee2a0df4bb66'
 tech:
   - Node.js
   - MaterialUI

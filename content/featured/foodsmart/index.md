@@ -3,7 +3,7 @@ date: '1'
 title: 'FoodSmart for Snapchat'
 cover: './FoodSmart.png'
 github: 'https://github.com/Snap-Engineering-Academy-2023/food-security'
-# external: 'https://halcyon-theme.netlify.com/'
+external: 'https://drive.google.com/file/d/1ay6KGwUZSR7VWcF1jMYW_kEtGBtdCfJX/view?usp=sharing/'
 tech:
   - React Native
   - Javascript
