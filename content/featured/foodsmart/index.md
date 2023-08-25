@@ -2,7 +2,7 @@
 date: '1'
 title: 'FoodSmart for Snapchat'
 cover: './FoodSmart.png'
-github: 'https://github.com/megaminding/food-security-megantieu'
+github: 'https://github.com/megaminding/Snapchat-FoodSmart'
 external: 'https://drive.google.com/file/d/1ay6KGwUZSR7VWcF1jMYW_kEtGBtdCfJX/view?usp=sharing/'
 tech:
   - React Native
