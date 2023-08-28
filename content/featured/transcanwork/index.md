@@ -1,9 +1,9 @@
 ---
 date: '4'
 title: 'TransCanWork'
-cover: './transcanwork.png'
+cover: './transcanworkclean.png'
 github: 'https://github.com/lablueprint/trans-can-work'
-# external: 'https://devpost.com/software/yumma'
+external: 'https://lablueprint.org/projects/tcw'
 tech:
   - Figma
   - CSS

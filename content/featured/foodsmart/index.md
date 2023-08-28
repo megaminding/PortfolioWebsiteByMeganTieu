@@ -3,7 +3,9 @@ date: '1'
 title: 'FoodSmart for Snapchat'
 cover: './FoodSmart.png'
 github: 'https://github.com/megaminding/Snapchat-FoodSmart'
-external: 'https://drive.google.com/file/d/1ay6KGwUZSR7VWcF1jMYW_kEtGBtdCfJX/view?usp=sharing/'
+external: 'https://bettyshin.com/foodsmart/'
+# external: 'https://drive.google.com/file/d/1ay6KGwUZSR7VWcF1jMYW_kEtGBtdCfJX/view?usp=sharing/'
+cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
   - React Native
   - Javascript
