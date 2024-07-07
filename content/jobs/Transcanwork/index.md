@@ -1,10 +1,10 @@
 ---
 date: '2017-04-01'
 title: 'UI/UX Designer'
-company: 'TransCanWork x Blueprint'
+company: 'TransCanWork'
 location: 'Los Angeles, CA'
-range: 'Oct 2022 - Present'
-url: 'https://lablueprint.org/'
+range: 'Oct 2022 - Jun 2023'
+url: 'https://lablueprint.org/projects/tcw'
 ---
 
 - Designed a web app featuring a streamlined navigator dashboard that tracks the progress and metadata of 2500+ jobseekers with 3 other designers

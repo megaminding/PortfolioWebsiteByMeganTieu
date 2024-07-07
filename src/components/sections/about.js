@@ -28,15 +28,14 @@ const StyledText = styled.div`
   //   overflow: hidden;
   //   list-style: none;
 
-
-    ul.clubs-list {
-      display: grid;
-      grid-template-columns: minmax(140px, 400px); /* One column */
-      grid-gap: 0 10px;
-      padding: 0;
-      margin: 20px 0 0 0;
-      overflow: hidden;
-      list-style: none;
+  ul.clubs-list {
+    display: grid;
+    grid-template-columns: minmax(140px, 400px); /* One column */
+    grid-gap: 0 10px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    list-style: none;
 
     li {
       position: relative;
@@ -115,8 +114,7 @@ const StyledPic = styled.div`
     }
 
     &:after {
-      
-       border: 2px solid var(--green);
+      border: 2px solid var(--green);
       top: 14px;
       left: 14px;
       z-index: -1;
@@ -136,9 +134,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'React', 'React Native', 'Git', 'Figma'];
+  // const skills = ['JavaScript', 'React', 'React Native', 'Git', 'Figma'];
 
-  const clubs = ['Project Hope - Volunteer dedicated to advancing educational equity by outreaching students at underserved high schools', 'Learning Center -  Photo Consultant fostering artistic creations among students through events and resources', 'LA Blueprint - UI/UX Designer working with non-profits for social good','Creative Labs - Project Manager supporting a community of creatives to build student-led projects'];
+  const clubs = [
+    'Project Hope - Volunteer dedicated to advancing educational equity by outreaching students at underserved high schools',
+    'Learning Center -  Photo Consultant fostering artistic creations among students through events and resources',
+    'LA Blueprint - Full-stack developer working with non-profits for social good',
+    'Creative Labs - Project Manager supporting a community of creatives to build student-led projects',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -148,18 +151,20 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Megan and I'm Front-End Engineer committed to building user-centric interfaces that seamlessly blend aesthetics and functionality. 
+              Hello! My name is Megan and I'm Front-End Engineer committed to building user-centric
+              interfaces that seamlessly blend aesthetics and functionality.
             </p>
             <p>
-              I'm currently attending UCLA studying cognitive science and computing. I'm involved in several organizations such as:
+              I'm currently attending UCLA studying cognitive science and computing. I'm involved in
+              several organizations such as:
             </p>
             <ul className="clubs-list">
-            {clubs && clubs.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
-        <br></br>
+              {clubs && clubs.map((skill, i) => <li key={i}>{skill}</li>)}
+            </ul>
+            <br></br>
             <p>
-
-              In my free time, I enjoy writing letters to my friends, hammocking, exploring Los Angeles via bus or scooters, and thrifting! I also love snacking on oranges, raspberries, and cherries.
+              In my free time, I enjoy jogging, hammocking, exploring Los Angeles via bus or
+              scooters, and thrifting! I adore eating oranges, raspberries, and cherries.
             </p>
 
             {/* <p>
@@ -183,8 +188,8 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-               src="../../images/megan.jpg"
-             //src = "/Users/megantieu/Downloads/WebsiteByMeganTieucopy/src/images/me.jpg"
+              src="../../images/megan.jpg"
+              //src = "/Users/megantieu/Downloads/WebsiteByMeganTieucopy/src/images/me.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
