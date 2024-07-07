@@ -13,7 +13,7 @@ tech:
   - React
 ---
 
-I partnered with Global Green to create an educational web app with quizzes, courses, and challenges to promote education for a more sustainable tomorrow. I developed a Challenges page featuring dynamic UI elements to track user progress visually.
+I worked with Global Green, a local nonprofit, to create an educational web app with quizzes, courses, and challenges to promote education for a more sustainable tomorrow. I developed a Challenges page featuring dynamic UI elements to track user progress visually.
 
 <!-- Leveraged CSS, React Native, Firebase, and react-native-maps for seamless integration -->
 <!-- -Developed  functionality for the addition of user-submitted location pins, accompanied by a bottom sheet modal where users can input various details about the location to enhance the collaborative aspect of the Snap Maps -->

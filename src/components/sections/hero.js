@@ -61,7 +61,7 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Megan Tieu.</h2>;
-  const three = <h3 className="big-heading">I am a Full Stack Developer. Prev @ Snapchat.</h3>;
+  const three = <h3 className="big-heading">I am a Full Stack Developer. </h3>;
   const four = (
     <>
       {/* <p>
@@ -75,7 +75,6 @@ const Hero = () => {
       </p> */}
     </>
   );
-  
 
   // const five = (
   //   <a

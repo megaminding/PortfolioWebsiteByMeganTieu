@@ -151,8 +151,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Megan and I'm Front-End Engineer committed to building user-centric
-              interfaces that seamlessly blend aesthetics and functionality.
+              Hello! My name is Megan and I'm full-stack engineer, specializing in creating
+              intuitive and engaging user experiences. I'm passionate about leveraging modern
+              technologies and design principles to deliver visually appealing and user-friendly
+              applications.
             </p>
             <p>
               I'm currently attending UCLA studying cognitive science and computing. I'm involved in
